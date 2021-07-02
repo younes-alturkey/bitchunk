@@ -129,8 +129,6 @@ Note: the service is in its first version, so expect some bugs.
 
 > Younes Alturkey - يونس التركي
 
-> Red Sea Group - فريق البحر الأحمر
-
 > GitHub: [@younes-alturkey](https://github.com/younes-alturkey) &nbsp;&middot;&nbsp;
 > Website: [younesalturkey.sa](https://younesalturkey.sa) &nbsp;&middot;&nbsp;
 > LinkedIn: [younes-alturkey](https://www.linkedin.com/in/younes-alturkey/)
