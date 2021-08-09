@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-<a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/YounesAlturkey/bitchunk/main/frontend/public/logo.png" alt="Tuwaiq Logo" width="80"/></a>
+<a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/logo.png" alt="Tuwaiq Logo" width="80"/></a>
   <br>
 
 <a href="https://bitchunk.co/" target="_blank">Bitchunk™: Secure File Sharing and Storage</a>
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/YounesAlturkey/bitchunk/main/frontend/src/assets/img/demo.gif" alt="demo"/></a>
+  <a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/demo.gif" alt="demo"/></a>
 </p>
 
 <br/>
@@ -95,14 +95,14 @@ Note: the service is in its first version, so expect some bugs.
 
 <a href="https://www.figma.com/file/VsHGJZBJGujmnWRzuCRM9G/Bitchunk-Web-App?node-id=0%3A1" target="_blank">Figma link</a>
 
-<a href="https://github.com/YounesAlturkey/bitchunk/blob/main/frontend/bitchunk-wireframes.pdf" target="_blank">Pdf link</a>
+<a href="https://github.com/younes-alturkey/bitchunk.co/blob/main/frontend/bitchunk-wireframes.pdf" target="_blank">Pdf link</a>
 
 <br/>
 
 ## Google Lighthouse Report - إختبار الجودة من جوجل
 
 <p align="center">
-<a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fbitchunk.co"><img src="https://raw.githubusercontent.com/YounesAlturkey/bitchunk.co/main/frontend/src/assets/img/lighthouse-report.png" alt="Quality Check"/></a>
+<a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fbitchunk.co"><img src="https://github.com/younes-alturkey/bitchunk.co/blob/main/frontend/src/assets/img/lighthouse-report.png" alt="Quality Check"/></a>
 </p>
 
 <br/>
@@ -110,7 +110,7 @@ Note: the service is in its first version, so expect some bugs.
 ## Unit Tests - الإختبارات
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/YounesAlturkey/bitchunk/main/backend-tests/tests-results.png" alt="Unit Tests Screenshot"/>
+<img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/backend-tests/tests-results.png" alt="Unit Tests Screenshot"/>
 </p>
 
 <div id="license">
@@ -119,7 +119,7 @@ Note: the service is in its first version, so expect some bugs.
 
 ## License - الرخصة
 
-[Open Source License ➝ MIT](https://github.com/YounesAlturkey/bitchunk.co/blob/main/LICENSE.md)
+[Open Source License ➝ MIT](https://github.com/younes-alturkey/bitchunk.co/blob/main/LICENSE.md)
 
 </div>
 
