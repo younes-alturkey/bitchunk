@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-<a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/logo.png" alt="Tuwaiq Logo" width="80"/></a>
+<a href="bit-chunk.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/logo.png" alt="Tuwaiq Logo" width="80"/></a>
   <br>
 
-<a href="https://bitchunk.co/" target="_blank">Bitchunk™: Secure File Sharing and Storage</a>
+<a href="bit-chunk.netlify.app" target="_blank">Bitchunk™: Secure File Sharing and Storage</a>
 
 </h1>
 <h4 align="center">Accurate data sharding, random distribution, and encryption service.</h4>
@@ -13,11 +13,11 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#license">License</a> •
-  <a href="https://bitchunk.co/">Live</a>
+  <a href="bit-chunk.netlify.app">Live</a>
 </p>
 
 <p align="center">
-  <a href="https://bitchunk.co/" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/demo.gif" alt="demo"/></a>
+  <a href="bit-chunk.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/demo.gif" alt="demo"/></a>
 </p>
 
 <br/>
@@ -77,7 +77,7 @@ Note: the service is in its first version, so expect some bugs.
 - Entity Framework - Code First Approach
 - Microsoft SQL Database with 8 Tables
 
-### <a href="https://bitchunk.co/" target="_blank">Frontend</a> - الواجهة
+### <a href="bit-chunk.netlify.app" target="_blank">Frontend</a> - الواجهة
 
 - React.js 17.0.2 with 10 Views
 
