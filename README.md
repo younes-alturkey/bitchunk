@@ -93,7 +93,7 @@ Note: the service is in its first version, so expect some bugs.
 
 ## Wireframes - التصاميم
 
-<a href="https://github.com/younes-alturkey/bitchunk.co/blob/main/frontend/bitchunk-wireframes.pdf" target="_blank">Pdf link</a>
+<a href="https://github.com/younes-alturkey/bitchunk.co/blob/main/frontend/bitchunk-wireframes.pdf" target="_blank">bitchunk-wireframes.pdf</a>
 
 <br/>
 
