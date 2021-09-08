@@ -93,8 +93,6 @@ Note: the service is in its first version, so expect some bugs.
 
 ## Wireframes - التصاميم
 
-<a href="https://www.figma.com/file/VsHGJZBJGujmnWRzuCRM9G/Bitchunk-Web-App?node-id=0%3A1" target="_blank">Figma link</a>
-
 <a href="https://github.com/younes-alturkey/bitchunk.co/blob/main/frontend/bitchunk-wireframes.pdf" target="_blank">Pdf link</a>
 
 <br/>
