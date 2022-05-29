@@ -4,7 +4,7 @@ import "./index.css"
 import App from "./App"
 import axios from "axios"
 
-axios.defaults.baseURL = "https://bitchunk-api.azurewebsites.net"
+axios.defaults.baseURL = "https://bitchunk.younes.ninja"
 axios.defaults.headers.post["Content-Type"] = "application/json"
 
 ReactDOM.render(<App />, document.getElementById("root"))
