@@ -131,7 +131,7 @@ export default function Terms() {
                       <p>
                         <strong>Website</strong> refers to Bitchunk, accessible
                         from{' '}
-                        <a href="https://bitchunk.co/">https://bitchunk.co/</a>
+                        <a href="https://bit-chunk.netlify.app">https://bit-chunk.netlify.app</a>
                       </p>
                     </p>
                     <p>
@@ -361,7 +361,7 @@ export default function Terms() {
                     If you have any questions about these Terms and Conditions,
                     You can contact us:
                   </p>
-                  By email: younes@bitchunk.co
+                  By email: hi@younes.ninja
                 </Grid>
               </Grid>
             </Paper>
