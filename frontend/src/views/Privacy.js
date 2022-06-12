@@ -60,7 +60,7 @@ export default function Privacy() {
                 <Grid item align="left" xs={10}>
                   <h1>Privacy Policy</h1>
                   <p>
-                    At Bitchunk, accessible from https://bitchunk.co, one of our
+                    At Bitchunk, accessible from https://bit-chunk.netlify.app, one of our
                     main priorities is the privacy of our visitors. This Privacy
                     Policy document contains types of information that is
                     collected and recorded by Bitchunk and how we use it.
@@ -279,7 +279,7 @@ export default function Privacy() {
                     If you have any questions about these Terms and Conditions,
                     You can contact us:
                   </p>
-                  By email: younes@bitchunk.co
+                  By email: hi@younes.ninja
                 </Grid>
               </Grid>
             </Paper>
