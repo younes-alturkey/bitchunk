@@ -17,7 +17,7 @@ namespace backend.Controllers
 
         public UploadController()
         {
-            _tempFolder = Directory.GetCurrentDirectory() + "/";
+            _tempFolder = Directory.GetCurrentDirectory() + "/temp";
             if (!Directory.Exists(_tempFolder))
                 Directory.CreateDirectory(_tempFolder);
         }

@@ -29,7 +29,7 @@ namespace backend.Controllers
         {
             _db = db;
             _userManager = userManager;
-            _tempFolder = Directory.GetCurrentDirectory() + "/";
+            _tempFolder = Directory.GetCurrentDirectory() + "/temp";
             _client = new BitChunk();
         }
 
