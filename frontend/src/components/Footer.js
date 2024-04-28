@@ -42,7 +42,7 @@ export default function Footer() {
         <Grid item lg={3} md={12} xs={12} align="center">
           <ButtonBase
             className={classes.button}
-            href="https://bitchunk.younes.ninja/swagger"
+            href="https://bitchunk.younes.ai/swagger"
             target="_blank"
           >
             <Typography align="center">Bitchunk API</Typography>

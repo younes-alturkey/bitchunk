@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-<a href="https://bit-chunk.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk.co/main/frontend/src/assets/img/logo.png" alt="Tuwaiq Logo" width="80"/></a>
+<a href="https://bit-chunk.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/bitchunk/main/frontend/src/assets/img/logo.png" alt="Tuwaiq Logo" width="80"/></a>
   <br>
 
 <a href="https://bit-chunk.netlify.app" target="_blank">Bitchunk™: Secure File Sharing and Storage</a>
@@ -11,6 +11,7 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+   <a href="#deploy">Deploy</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#license">License</a> •
   <a href="https://bit-chunk.netlify.app">Live</a>
@@ -44,22 +45,28 @@
 From your command line:
 
 #### # Clone this repository
-  ```bash
-  git clone https://github.com/younes-alturkey/bitchunk.co.git
-  ```
+
+```bash
+git clone https://github.com/younes-alturkey/bitchunk.co.git
+```
 
 #### # Go into the frontend directory
-  ```bash
-  cd bitchunk.co/frontend
-  ```
+
+```bash
+cd bitchunk.co/frontend
+```
+
 #### # Install the dependencies
-  ```bash
-  npm install
-  ```
+
+```bash
+npm install
+```
+
 #### # Run the app
-  ```bash
-  npm start
-  ```
+
+```bash
+npm start
+```
 
 Note: the service is in its first version, so expect some bugs.
 
@@ -67,6 +74,49 @@ Note: the service is in its first version, so expect some bugs.
 
 <br/>
 
+<div id="deploy">
+
+## Deploy - نشر
+
+```
+sudo apt install docker.io
+```
+
+```
+sudo systemctl start docker
+```
+
+```
+sudo systemctl enable docker
+```
+
+```
+sudo apt-get install ufw
+```
+
+```
+sudo ufw enable
+```
+
+```
+sudo ufw allow ssh
+```
+
+```
+sudo ufw allow 5000
+```
+
+```
+sudo docker build -t backend .
+```
+
+```
+docker run -d --name backend --restart always -p 5000:5000 backend
+```
+
+</div>
+
+<br/>
 <div id="tech-stack">
 
 ## Tech Stack - التكنولوجيا المستخدمة
