@@ -17,7 +17,7 @@ namespace backend.Controllers
 
         public UploadController()
         {
-            _tempFolder = Directory.GetCurrentDirectory() + "\\temp";
+            _tempFolder = Directory.GetCurrentDirectory() + "/";
             if (!Directory.Exists(_tempFolder))
                 Directory.CreateDirectory(_tempFolder);
         }
@@ -60,7 +60,7 @@ namespace backend.Controllers
 
                 foreach(var file in fileEntries)
                 {
-                    files.Add(file.Split('\\')[^1]);
+                    files.Add(file.Split('/')[^1]);
                 }
 
                 if(files.Count > 0)

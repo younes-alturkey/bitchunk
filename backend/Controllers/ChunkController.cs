@@ -29,7 +29,7 @@ namespace backend.Controllers
         {
             _db = db;
             _userManager = userManager;
-            _tempFolder = Directory.GetCurrentDirectory() + "\\temp";
+            _tempFolder = Directory.GetCurrentDirectory() + "/";
             _client = new BitChunk();
         }
 
@@ -70,8 +70,8 @@ namespace backend.Controllers
                         }
                         var newLog = new Log()
                         {
-                            RefFileName = _client.RefFile.Split("\\")[^1],
-                            OriFileName = _client.InputFileName.Split("\\")[^1],
+                            RefFileName = _client.RefFile.Split("/")[^1],
+                            OriFileName = _client.InputFileName.Split("/")[^1],
                             FileSize = _client.InputFileSize,
                             OperationTimes = stopwatch.ElapsedMilliseconds,
                             TimeStamp = DateTime.Now,
@@ -84,9 +84,9 @@ namespace backend.Controllers
 
                     return Ok(new { 
                         Status = "Success", 
-                        Message = $"{_client.RefFile.Split("\\")[^1]} has been generated", 
-                        ReferenceFile = _client.RefFile.Split("\\")[^1], 
-                        FileName = _client.InputFileName.Split("\\")[^1],
+                        Message = $"{_client.RefFile.Split("/")[^1]} has been generated", 
+                        ReferenceFile = _client.RefFile.Split("/")[^1], 
+                        FileName = _client.InputFileName.Split("/")[^1],
                         FileSize = _client.InputFileSize,
                         ChunkSize = _client.ChunkSize,
                         ChunksCount = chunksNames.Count,
@@ -107,7 +107,7 @@ namespace backend.Controllers
             try
             {
                 _client.EncryptRef(Path.Combine(_tempFolder, RefFile), encryptionKeyDTO.RefPassword);
-                return Ok(new { Status = "Success", Message = $"{_client.RefFile.Split("\\")[^1]} has been encrypted with AES-256", ReferenceFile = _client.RefFile.Split("\\")[^1] });
+                return Ok(new { Status = "Success", Message = $"{_client.RefFile.Split("/")[^1]} has been encrypted with AES-256", ReferenceFile = _client.RefFile.Split("/")[^1] });
             } catch(Exception e)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = e.Message });
@@ -120,7 +120,7 @@ namespace backend.Controllers
             try
             {
                 _client.DecryptRef(Path.Combine(_tempFolder, RefFile), encryptionKeyDTO.RefPassword);
-                return Ok(new { Status = "Success", Message = $"{_client.RefFile.Split("\\")[^1]} has been decrypted", ReferenceFile = _client.RefFile.Split("\\")[^1] });
+                return Ok(new { Status = "Success", Message = $"{_client.RefFile.Split("/")[^1]} has been decrypted", ReferenceFile = _client.RefFile.Split("/")[^1] });
             } catch(Exception e)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = e.Message });
@@ -189,7 +189,7 @@ namespace backend.Controllers
                     return File(fileBytes, "application/force-download", _client.ReassembledFileName.Split("/")[^1]);
                 }
 
-                return NotFound(new Response { Status = "Error", Message = $"{_client.ReassembledFileName.Split("\\")[^1]} was not found on the server!" });
+                return NotFound(new Response { Status = "Error", Message = $"{_client.ReassembledFileName.Split("/")[^1]} was not found on the server!" });
 
             } catch (Exception e)
             {

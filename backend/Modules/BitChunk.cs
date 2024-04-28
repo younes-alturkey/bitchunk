@@ -113,7 +113,7 @@ namespace backend.Modules
             string temp;
             using (BinaryReader refReader = new BinaryReader(File.Open(fileName, FileMode.Open)))
             {
-                OriginalFileName = refReader.ReadString().Split("\\")[^1];
+                OriginalFileName = refReader.ReadString().Split("/")[^1];
                 OriginalFileSize = refReader.ReadInt32();
                 OriginalChunkSize = refReader.ReadInt32();
                 ChunksCount = refReader.ReadInt32();
